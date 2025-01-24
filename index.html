@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/515deb5b82.js" crossorigin="anonymous"></script> <!-- <i class="fa-solid fa-arrow-right"></i> -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Demo 8</title>
+</head>
+<body>
+    <div class="menu-blur"></div>
+    <div class="menu-container">
+        <div style="height: 0px; transition: 0.5s ease;" id="menuSpace"></div>
+        <a href="#project" class="menu-link">Projects</a>
+        <a href="#service" class="menu-link">Services</a>
+        <a href="#feedback" class="menu-link">Feedback</a>
+        <a href="#about" class="menu-link">About</a>
+        <div class="menu-border"></div>
+        <a href="https://twitter.com" class="menu-social">Twitter</a>
+        <a href="https://linkedin.com" class="menu-social">Linkedin</a>
+        <a href="https://dribbble.com" class="menu-social">Instagram</a>
+        <a href="https://instagram.com" class="menu-social">Dribbble</a>
+    </div>
+
+    <div class="home-container" id="home">
+        <div class="square-container">
+        </div>
+
+        <div class="header-blur"></div>
+        <div class="header">
+            <img src="images/logo.png" class="header-logo" />
+            <div class="header-col">
+                <div class="header-name">Karanveer Singh</div>
+                <div class="header-job">Website Developer + Designer</div>
+            </div>
+            
+            <div class="header-nav">
+                <a href="#project" class="header-link">Projects</a>
+                <a href="#service" class="header-link">Services</a>
+                <a href="#feedback" class="header-link">Testimonials</a>
+                <a href="#about" class="header-link">About</a>
+            </div>
+            <div class="menu-icon-container" onclick="toggleMenu()">
+                <div class="menu-line line1"></div>
+                <div class="menu-line line2"></div>
+            </div>
+        </div>
+        <div class="header-border"></div>
+
+        <div class="home-content">
+            <div class="circle-background"></div>
+            <div class="avail-box starter">
+                <div class="avail-dot"></div>
+                <div class="avail-txt">Available for January 2025</div>
+            </div>
+            <img src="images/headshot.png" class="home-avatar starter" />
+            <div class="home-title starter">Developing Websites<br> that deliver results</div>
+            <div class="home-para starter">Designing and developing visually stunning and technically proficient websites for clients worldwide.</div>
+            <a href="#contact"><div class="btn-home starter">
+                <div class="btn-home-txt">Book a call</div>
+                <i class="fa-solid fa-arrow-right home-arr"></i>
+            </div></a>
+        </div>
+    </div>
+
+    <div class="extra-border"></div>
+    <div class="extra-container">
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_1.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_2.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_3.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_4.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_5.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_6.png" class="extra-img" />
+        </div>
+
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_1.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_2.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_3.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_4.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_5.png" class="extra-img" />
+        </div>
+        <div class="extra-img-container">
+            <div class="extra-dot-flex">
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+                <div class="extra-dot"></div>
+            </div>
+            <img src="images/home imgs/h8_6.png" class="extra-img" />
+        </div>
+    </div>
+
+    <div class="feat-container" id="project">
+        <div class="feat-title scroll-target">Featured Projects</div>
+
+        <div class="feat-flex">
+
+            <div class="feat-box scroll-target">
+                <div class="feat-dot-flex">
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                </div>
+                <div class="feat-img-container">
+                    <img src="images/feat imgs/f8_v1.png" class="feat-img" />
+                </div>
+                <div class="feat-content">
+                    <div class="feat-shadow"></div>
+                    <div class="feat-blur"></div>
+                    <div class="feat-content-col">
+                        <div class="feat-head">Identity</div>
+                        <div class="feat-desc">Website Design & Development</div>
+                    </div>
+
+                    <div class="feat-arr-container"><i class="fa-solid fa-arrow-right feat-arr"></i></div>
+                </div>
+            </div>
+            <div class="feat-box scroll-target">
+                <div class="feat-dot-flex">
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                </div>
+                <div class="feat-img-container">
+                    <img src="images/feat imgs/f8_v2.png" class="feat-img" />
+                </div>
+                <div class="feat-content">
+                    <div class="feat-shadow"></div>
+                    <div class="feat-blur"></div>
+                    <div class="feat-content-col">
+                        <div class="feat-head">Interior</div>
+                        <div class="feat-desc">Website Design & Development</div>
+                    </div>
+
+                    <div class="feat-arr-container"><i class="fa-solid fa-arrow-right feat-arr"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="feat-flex">
+
+            <div class="feat-box scroll-target">
+                <div class="feat-dot-flex">
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                </div>
+                <div class="feat-img-container">
+                    <img src="images/feat imgs/f8_v4.png" class="feat-img" />
+                </div>
+                <div class="feat-content">
+                    <div class="feat-shadow"></div>
+
+                    <div class="feat-blur"></div>
+                    <div class="feat-content-col">
+                        <div class="feat-head">Goreno</div>
+                        <div class="feat-desc">Website Design & Development</div>
+                    </div>
+
+                    <div class="feat-arr-container"><i class="fa-solid fa-arrow-right feat-arr"></i></div>
+                </div>
+            </div>
+            <div class="feat-box scroll-target">
+                <div class="feat-dot-flex">
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                </div>
+                <div class="feat-img-container">
+                    <img src="images/feat imgs/f8_v5.png" class="feat-img" />
+                </div>
+                <div class="feat-content">
+                    <div class="feat-shadow"></div>
+                    <div class="feat-blur"></div>
+                    <div class="feat-content-col">
+                        <div class="feat-head">Sincere</div>
+                        <div class="feat-desc">Website Design & Development</div>
+                    </div>
+
+                    <div class="feat-arr-container"><i class="fa-solid fa-arrow-right feat-arr"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="feat-flex">
+
+            <div class="feat-box scroll-target">
+                <div class="feat-dot-flex">
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                </div>
+                <div class="feat-img-container">
+                    <img src="images/feat imgs/f8_v6.png" class="feat-img" />
+                </div>
+                <div class="feat-content">
+                    <div class="feat-shadow"></div>
+                    <div class="feat-blur"></div>
+                    <div class="feat-content-col">
+                        <div class="feat-head">Harv</div>
+                        <div class="feat-desc">Website Design & Development</div>
+                    </div>
+
+                    <div class="feat-arr-container"><i class="fa-solid fa-arrow-right feat-arr"></i></div>
+                </div>
+            </div>
+            <div class="feat-box scroll-target">
+                <div class="feat-dot-flex">
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                    <div class="feat-dot"></div>
+                </div>
+                <div class="feat-img-container">
+                    <img src="images/feat imgs/f8_v7.png" class="feat-img" />
+                </div>
+                <div class="feat-content">
+                    <div class="feat-shadow"></div>
+                    <div class="feat-blur"></div>
+                    <div class="feat-content-col">
+                        <div class="feat-head">ReelUp</div>
+                        <div class="feat-desc">Website Design & Development</div>
+                    </div>
+
+                    <div class="feat-arr-container"><i class="fa-solid fa-arrow-right feat-arr"></i></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="test-container" id="feedback">
+        <div class="test-title scroll-target">Testimonials</div>
+
+        <div class="test-flex scroll-target">
+            <div class="test-wrapper">
+                <div class="test-blur"></div>
+
+                <div class="test-para">Working with Singh was the best decision I took for my website. He was very patient with me and took the time to understand just what I wanted out of my website and he delivered exactly what I had in mind.<br><br> 
+                    Moreover, he is very creative and understands design really well so he can not just deliver what you want, he can SPICE it up and take it to the next level.<br><br>
+                    Singh is a 10/10 in my book and I'd recommend him to anyone.
+                </div>
+                <div class="info-flex">
+                    <img src="images/avt 1.png" class="test-avt" />
+                    <div class="test-col">
+                        <div class="test-name">Liam O'Connor</div>
+                        <div class="test-job">Product Designer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="test-wrapper">
+                <div class="test-blur"></div>
+
+                <div class="test-para">Singh did a great job of understanding the brief and bringing to life what I had in mind.<br><br>
+                    He also augmented it and made it better by adding his own experience and skills.</div>
+                <div class="info-flex">
+                    <img src="images/avt 2.png" class="test-avt" />
+                    <div class="test-col">
+                        <div class="test-name">Ava Fitzgerald</div>
+                        <div class="test-job">CEO @ Sincere</div>
+                    </div>
+                </div>
+            </div>
+            <div class="test-wrapper">
+                <div class="test-blur"></div>
+
+                <div class="test-para">Singh always had a strong sense of design and had good opinions on what would work and what wouldn't.<br><br> 
+                    He was extremely prompt with turn around times.<br><br> 
+                    I highly recommend working with him! </div>
+                <div class="info-flex">
+                    <img src="images/avt 3.png" class="test-avt" />
+                    <div class="test-col">
+                        <div class="test-name">Noah Murphy</div>
+                        <div class="test-job">CEO @ Goreno</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trust-all scroll-target">
+    <div class="trust-border"></div>
+    <div class="trust-container">
+        <div class="trust-flex">
+            <img src="images/trust/logo_1.png" class="trust-logo" />
+            <img src="images/trust/logo_2.png" class="trust-logo" />
+            <img src="images/trust/logo_3.png" class="trust-logo" />
+            <img src="images/trust/logo_4.png" class="trust-logo" />
+            <img src="images/trust/logo_5.png" class="trust-logo" />
+            <img src="images/trust/logo_6.png" class="trust-logo" />
+
+            <img src="images/trust/logo_1.png" class="trust-logo" />
+            <img src="images/trust/logo_2.png" class="trust-logo" />
+            <img src="images/trust/logo_3.png" class="trust-logo" />
+            <img src="images/trust/logo_4.png" class="trust-logo" />
+            <img src="images/trust/logo_5.png" class="trust-logo" />
+            <img src="images/trust/logo_6.png" class="trust-logo" />
+
+            <img src="images/trust/logo_1.png" class="trust-logo" />
+            <img src="images/trust/logo_2.png" class="trust-logo" />
+            <img src="images/trust/logo_3.png" class="trust-logo" />
+            <img src="images/trust/logo_4.png" class="trust-logo" />
+            <img src="images/trust/logo_5.png" class="trust-logo" />
+            <img src="images/trust/logo_6.png" class="trust-logo" />
+        </div>
+    </div>
+    <div class="trust-border"></div>
+    </div>
+
+    <div class="about-container" id="about">
+        <div class="about-title scroll-target">About me</div>
+
+        <div class="about-flexbox scroll-target">
+            <div class="about-info-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <div class="about-info-para">I am Singh.<br><br>
+                    A creative developer with a passion for design and development. From concept to launch, I am involved in every step of the process.<br><br>
+                    User experience, visually striking design, engaging interactions and impeccable typography are my top priorities.</div>
+            </div>
+            <div class="about-avt-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <img src="images/headshot.png" class="about-avt" />
+            </div>
+            <div class="about-stat-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <div class="about-stat-head">110+</div>
+                <div class="about-stat-desc">Completed<br> Projects</div>
+            </div>
+            <div class="about-stat-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <div class="about-stat-head">5+</div>
+                <div class="about-stat-desc">Freelance<br> Years</div>
+            </div>
+            <div class="about-help-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <div class="about-help-para">Helping Startups, B2B services, small businesses and creatives with customized design solutions that include landing pages & website creation.</div>
+            </div>
+            <div class="about-expert-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <div class="expert-box">
+                    <img src="https://framerusercontent.com/images/erCf9OXVinyIWs0niHrbzNpXk.svg" class="expert-img" />
+                    <div class="expert-txt">Framer Expert</div>
+                </div>
+            </div>
+            <div class="about-tech-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <div class="about-tech-head">My Tech Stack</div>
+                <div class="tech-flex">
+                    <img src="https://framerusercontent.com/images/mELfLYbh3NPO5fIwx5pzmVq2Vvs.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/yReV1hebzVjB0jiNtQihRTgzEXM.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/CmKj4WR0cBTPDAxtCm81LFYFSA.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/Te4nA7LFF1X083ZnP4Axci2o.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/tAUXrWwEaD1qD5870TYQWwIEVUg.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/7h2QTuhmS1AYIFbFbA0l5Ej2Spc.svg" class="tech-img" />
+
+                    <img src="https://framerusercontent.com/images/mELfLYbh3NPO5fIwx5pzmVq2Vvs.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/yReV1hebzVjB0jiNtQihRTgzEXM.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/CmKj4WR0cBTPDAxtCm81LFYFSA.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/Te4nA7LFF1X083ZnP4Axci2o.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/tAUXrWwEaD1qD5870TYQWwIEVUg.svg" class="tech-img" />
+                    <img src="https://framerusercontent.com/images/7h2QTuhmS1AYIFbFbA0l5Ej2Spc.svg" class="tech-img" />
+                </div>
+            </div>
+            <a href="https://twitter.com"><div class="about-twit-wrapper all-about-wrapper">
+                <div class="about-blur"></div>
+                <img src="https://framerusercontent.com/images/ba3o5PmAzWXrEQyLcuRxf11Yb1U.svg" class="twitter-img" />
+            </div></a>
+        </div>
+    </div>
+
+    <div class="ques-container" id="question">
+        <img src="images/ques_bg.png" class="ques-bg" />
+        <div class="ques-title scroll-target">Frequently Asked Questions</div>
+        
+        <div class="ques-col">
+            <div class="ques-box scroll-target">
+                <div class="ques-flex">
+                    <div class="ques-icon">+</div>
+                    <div class="ques-head">What services do I offer?</div>
+                </div>
+                <div class="ques-para">I provide services for the design and development of premium landing pages & websites. Supplementary services for design, animation and writing may also be provided based on project.</div>
+            </div>
+
+            <div class="ques-box scroll-target">
+                <div class="ques-flex">
+                    <div class="ques-icon">+</div>
+                    <div class="ques-head">How much does a website cost?</div>
+                </div>
+                <div class="ques-para">I charge based on a fixed price, starting at $3000 per project.<br><br>
+                                    Project Costs can depend on factors like number of pages, integrations & functions needed.</div>
+            </div>
+
+            <div class="ques-box scroll-target">
+                <div class="ques-flex">
+                    <div class="ques-icon">+</div>
+                    <div class="ques-head">How do you build your websites?</div>
+                </div>
+                <div class="ques-para">I use Figma for the design stage and exclusively use Framer for the development. Both are industry-leading platforms that can cater to the needs of your project.</div>
+            </div>
+
+            <div class="ques-box scroll-target">
+                <div class="ques-flex">
+                    <div class="ques-icon">+</div>
+                    <div class="ques-head">How long does a project take?</div>
+                </div>
+                <div class="ques-para">Projects, understandably, vary in length.<br><br>
+                                    An average project (single landing page) can take 1 or 2 weeks accounting for ideation, revisions etc.</div>
+            </div>
+
+            <div class="ques-box scroll-target">
+                <div class="ques-flex">
+                    <div class="ques-icon">+</div>
+                    <div class="ques-head">What's the process for a project?</div>
+                </div>
+                <div class="ques-para">My process involves:<br><br>
+                    1. Ideation<br><br>
+                    2. Mood board<br><br>
+                    3. Wireframe<br><br>
+                    4. Design<br><br>
+                    5. Development</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="call-border"></div>
+    <div class="call-wrapper">
+        <div class="call-txt">Interested in working with me? Send me a message at</div>
+        <div class="call-bg">
+            <div class="call-btn">hey@karanveer.com</div>
+        </div>
+    </div>
+    <div class="call-border"></div>
+
+    <div class="footer-container">
+        <div class="footer-nav">
+            <a href="#project" class="footer-link">Projects</a>
+            <a href="#service" class="footer-link">Services</a>
+            <a href="#feedback" class="footer-link">Testimonials</a>
+            <a href="#about" class="footer-link">About</a>
+        </div>
+
+        <img src="images/logo.png" class="footer-logo" />
+
+        <div class="social-flex">
+            <a href="https://twitter.com"><img src="https://framerusercontent.com/images/UmYO8P0bTfB6d1TZljXgBheM.svg" class="social-img" /></a>
+            <a href="https://linkedin.com"><img src="https://framerusercontent.com/images/vKwlMNlQpoEmOz8ncjxV4AyF4xk.svg" class="social-img" /></a>
+            <a href="https://dribbble.com"><img src="https://framerusercontent.com/images/FZ0q8v5jV1xmFbJgplQuhyptwRU.svg" class="social-img" /></a>
+            <a href="https://instagram.com"><img src="https://framerusercontent.com/images/LpS2u4VrsouvlSsNmrHoesACI.svg" class="social-img" /></a>
+        </div>
+
+        <div class="copy-txt">All rights reserved.<br id="footerBr"> © Copyright Karanveer Singh 2024</div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
